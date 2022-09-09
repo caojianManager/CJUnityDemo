@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pico.Spatializer", "Pico.Spatializer.csproj", "{919367a3-b4e3-9ead-e4c4-5bb28b480a66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.PicoXR", "Unity.XR.PicoXR.csproj", "{e824bf79-f4aa-88b7-be95-f6622680a413}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pico.Platform", "Pico.Platform.csproj", "{5bdce8bb-e91a-24b5-519f-985c3bea9c28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pico.Spatializer.Example", "Pico.Spatializer.Example.csproj", "{45d0dca7-4347-9c77-ce9b-e38edd2d9b53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{7d0212e8-9741-d21a-ad8a-94321db33af8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.PicoXR.Editor", "Unity.XR.PicoXR.Editor.csproj", "{e3b55d44-5039-ec15-5412-c94fa0c63b4b}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{919367a3-b4e3-9ead-e4c4-5bb28b480a66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{919367a3-b4e3-9ead-e4c4-5bb28b480a66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{e824bf79-f4aa-88b7-be95-f6622680a413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{e824bf79-f4aa-88b7-be95-f6622680a413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5bdce8bb-e91a-24b5-519f-985c3bea9c28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5bdce8bb-e91a-24b5-519f-985c3bea9c28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45d0dca7-4347-9c77-ce9b-e38edd2d9b53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45d0dca7-4347-9c77-ce9b-e38edd2d9b53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7d0212e8-9741-d21a-ad8a-94321db33af8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7d0212e8-9741-d21a-ad8a-94321db33af8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{e3b55d44-5039-ec15-5412-c94fa0c63b4b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{e3b55d44-5039-ec15-5412-c94fa0c63b4b}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

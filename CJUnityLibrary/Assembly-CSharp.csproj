@@ -285,9 +285,6 @@
      <Reference Include="Newtonsoft.Json">
      <HintPath>/Users/caojian/Desktop/CJUnityDemo/CJUnityLibrary/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
      </Reference>
-     <Reference Include="LitJson">
-     <HintPath>/Users/caojian/Downloads/Pico Unity Integration SDK-2/Runtime/Android/LitJson.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.Android.Types">
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.5f1c1/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll</HintPath>
      </Reference>
@@ -669,12 +666,6 @@
      <Reference Include="Unity.TextMeshPro.Editor">
      <HintPath>/Users/caojian/Desktop/CJUnityDemo/CJUnityLibrary/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-     <HintPath>/Users/caojian/Desktop/CJUnityDemo/CJUnityLibrary/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-     <HintPath>/Users/caojian/Desktop/CJUnityDemo/CJUnityLibrary/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.VisualStudio.Editor">
      <HintPath>/Users/caojian/Desktop/CJUnityDemo/CJUnityLibrary/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
      </Reference>
@@ -692,9 +683,6 @@
      </Reference>
      <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
      <HintPath>/Users/caojian/Desktop/CJUnityDemo/CJUnityLibrary/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-     <HintPath>/Users/caojian/Desktop/CJUnityDemo/CJUnityLibrary/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow">
      <HintPath>/Users/caojian/Desktop/CJUnityDemo/CJUnityLibrary/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
@@ -717,9 +705,6 @@
      <Reference Include="Unity.VisualScripting.Core">
      <HintPath>/Users/caojian/Desktop/CJUnityDemo/CJUnityLibrary/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.EditorCoroutines.Editor">
-     <HintPath>/Users/caojian/Desktop/CJUnityDemo/CJUnityLibrary/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.Services.Core.Analytics">
      <HintPath>/Users/caojian/Desktop/CJUnityDemo/CJUnityLibrary/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll</HintPath>
      </Reference>
@@ -732,11 +717,11 @@
      <Reference Include="Unity.Timeline.Editor">
      <HintPath>/Users/caojian/Desktop/CJUnityDemo/CJUnityLibrary/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-     <HintPath>/Users/caojian/Desktop/CJUnityDemo/CJUnityLibrary/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.VisualScripting.State">
      <HintPath>/Users/caojian/Desktop/CJUnityDemo/CJUnityLibrary/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
+     <HintPath>/Users/caojian/Desktop/CJUnityDemo/CJUnityLibrary/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.SpatialTracking">
      <HintPath>/Users/caojian/Desktop/CJUnityDemo/CJUnityLibrary/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
@@ -753,6 +738,18 @@
      <Reference Include="UnityEditor.SpatialTracking">
      <HintPath>/Users/caojian/Desktop/CJUnityDemo/CJUnityLibrary/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+     <HintPath>/Users/caojian/Desktop/CJUnityDemo/CJUnityLibrary/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
+     <HintPath>/Users/caojian/Desktop/CJUnityDemo/CJUnityLibrary/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
+     <HintPath>/Users/caojian/Desktop/CJUnityDemo/CJUnityLibrary/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.EditorCoroutines.Editor">
+     <HintPath>/Users/caojian/Desktop/CJUnityDemo/CJUnityLibrary/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.XR.Interaction.Toolkit.Editor">
      <HintPath>/Users/caojian/Desktop/CJUnityDemo/CJUnityLibrary/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
      </Reference>
@@ -767,26 +764,6 @@
      </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.XR.PicoXR.Editor.csproj">
-      <Project>{e3b55d44-5039-ec15-5412-c94fa0c63b4b}</Project>
-      <Name>Unity.XR.PicoXR.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Pico.Platform.csproj">
-      <Project>{5bdce8bb-e91a-24b5-519f-985c3bea9c28}</Project>
-      <Name>Pico.Platform</Name>
-    </ProjectReference>
-    <ProjectReference Include="Pico.Spatializer.csproj">
-      <Project>{919367a3-b4e3-9ead-e4c4-5bb28b480a66}</Project>
-      <Name>Pico.Spatializer</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.PicoXR.csproj">
-      <Project>{e824bf79-f4aa-88b7-be95-f6622680a413}</Project>
-      <Name>Unity.XR.PicoXR</Name>
-    </ProjectReference>
-    <ProjectReference Include="Pico.Spatializer.Example.csproj">
-      <Project>{45d0dca7-4347-9c77-ce9b-e38edd2d9b53}</Project>
-      <Name>Pico.Spatializer.Example</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

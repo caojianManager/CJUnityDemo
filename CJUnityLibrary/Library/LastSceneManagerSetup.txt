@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/SuperScrollView/Demo/Scenes/GridView/GridViewDeleteItemDemo2.unity
+- path: Assets/Scenes/TestMainScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

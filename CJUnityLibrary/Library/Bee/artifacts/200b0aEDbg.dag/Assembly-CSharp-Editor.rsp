@@ -380,6 +380,7 @@
 -r:"Library/Bee/artifacts/200b0aEDbg.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/200b0aEDbg.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aEDbg.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
+"Assets/CJUIComponent/SerializableDictionary/Editor/SerializableDictionaryPropertyDrawer.cs"
 "Assets/CJUIComponent/SuperScrollView/Editor/LoopGridViewEditor.cs"
 "Assets/CJUIComponent/SuperScrollView/Editor/LoopListViewEditor2.cs"
 "Assets/CJUIComponent/SuperScrollView/Editor/LoopStaggeredGridViewEditor.cs"

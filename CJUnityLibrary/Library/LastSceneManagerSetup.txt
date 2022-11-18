@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/TestMainScene.unity
+- path: Assets/CJUIComponent/ProceduralUIImage/Demo/demo_examples.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

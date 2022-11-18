@@ -41,10 +41,14 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets/CJUIComponent/ProceduralUIImage/Editor/ModifierUtility.cs" />
      <Compile Include="Assets/CJUIComponent/SuperScrollView/Editor/LoopGridViewEditor.cs" />
+     <Compile Include="Assets/CJUIComponent/ProceduralUIImage/Editor/FreeModifierEditor.cs" />
+     <Compile Include="Assets/CJUIComponent/ProceduralUIImage/Editor/ProceduralImageEditor.cs" />
      <Compile Include="Assets/CJUIComponent/SuperScrollView/Editor/LoopStaggeredGridViewEditor.cs" />
-     <Compile Include="Assets/CJUIComponent/SuperScrollView/Editor/LoopListViewEditor2.cs" />
      <Compile Include="Assets/CJUIComponent/SerializableDictionary/Editor/SerializableDictionaryPropertyDrawer.cs" />
+     <Compile Include="Assets/CJUIComponent/SuperScrollView/Editor/LoopListViewEditor2.cs" />
+     <Compile Include="Assets/CJUIComponent/ProceduralUIImage/Editor/ProceduralImageEditorUtility.cs" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.5f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
